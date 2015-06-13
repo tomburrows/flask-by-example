@@ -26,5 +26,6 @@ class DevelopmentConfig(Config):
 class TestingConfig(Config):
     TESTING = True
 
-print(os.environ['DATABASE_URL'])
+# Print database URL for sanity check
+# print(os.environ['DATABASE_URL'])
     
